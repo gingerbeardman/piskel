@@ -14,7 +14,6 @@
 
     // This step is only used if rawFiles contains a single image.
     this.file_ = this.mergeData.rawFiles[0];
-    console.log('3: ', this.file_);
 
     this.importPreview = this.container.querySelector('.import-section-preview');
 
@@ -173,7 +172,6 @@
 
   ns.ImageImport.prototype.onImageLoaded_ = function (image) {
     this.importedImage_ = image;
-    console.log('4: ', this.file_);
 
     var w = this.importedImage_.width;
     var h = this.importedImage_.height;

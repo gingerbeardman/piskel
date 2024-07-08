@@ -84,7 +84,6 @@
 
   ns.ImportController.prototype.importPictureFromFile_ = function () {
     var files = this.hiddenFileInput.files;
-    console.log('1: ', files[0])
     // TODO : Simply filter and remove stuff
     var areImages = Array.prototype.every.call(files, function (file) {
       return file.type.indexOf('image') === 0;

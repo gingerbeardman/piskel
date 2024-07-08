@@ -43,7 +43,6 @@
     // Prepare mergeData  object and wizard steps.
     this.mergeData.rawFiles = initArgs.rawFiles;
     this.steps = this.createSteps_();
-    console.log('2: ', initArgs.rawFiles[0]);
 
     // Start wizard widget.
     var wizardContainer = document.querySelector('.import-wizard-container');
